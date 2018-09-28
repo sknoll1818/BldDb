@@ -1,14 +1,20 @@
 function CellChoice(){
 
     var piece = document.getElementsByName('PieceType');
-for (var i = 0; i < 7; i++)
-{
- if (piece[i].checked)
- {
-  alert(Hi);
-  break;
- }
-}
+
+    var x = document.getElementById("frm");
+    var text = "";
+    var i;
+    for (i = 7; i < x.length-1 ;i++) {
+        text += x.elements[i].value+" ";
+    }
+    alert(text);
+    var columns = [
+  [UBR,C],
+  [UBL,B],
+  //add more columns
+  //then add rows
+];
 }
 var excelIO = new GC.Spread.Excel.IO();
 var excelUrl = $("#importUrl").val();
