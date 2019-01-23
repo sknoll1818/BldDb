@@ -9,25 +9,28 @@ form{
     background-color:#0080ff;
 }
 div{
-  
+
     position:absolute;
-  
+
 }
 .SubButton{
     font-size:1em;
     border:2px dashed white;
-    
+
 }
 h2 {
     color:black;
     position:fixed;
     top:300px;
-   
+
 }
 iframe{
-    
+
     position:fixed;
     bottom:0px;
     width:500px;
     height:400px;
+}
+table{
+  visibility: hidden;
 }
